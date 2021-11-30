@@ -1,0 +1,846 @@
+body {
+    overflow-x: hidden;
+
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 18px;
+    color: #555;
+    line-height: 30px;
+}
+
+/* Навигация */
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.wrapper-nav {
+    margin: 65px 0;
+    padding: 0 0 30px 0;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header__burger {
+    display: none;
+}
+
+.nav-a {
+    padding-left: 40px;
+}
+
+.logo-nav {
+    margin-left: 13%;
+
+}
+
+.search-nav {
+    width: 41px;
+    height: 40px;
+    margin-left: 10%;
+}
+
+.shop-nav {
+    margin-left: 2%;
+
+}
+
+.regestar-nav {
+    color: white;
+    background: #09A66D;
+    border-radius: 10px;
+    width: 160px;
+    text-align: center;
+    
+    padding: 10px 0;
+    float: right;
+    margin-right: 100px;
+    margin-top: 8px;
+}
+
+/* Первая секция после навигации с заголовком */
+
+.wrapper-header {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bg-header {
+    width: 100vw;
+    background: #F3FBF8;
+    text-align: left;
+}
+
+.wrapper-head {
+    
+}
+
+h2 {
+    font-family: "Rosario";
+    font-size: 70px;
+    font-weight: 700;
+    color: #222;
+
+    text-align: center;
+    padding-top: 90px;
+    position: sticky;
+    z-index: 1;
+}
+
+.lorem-h1 {
+    width: 637px;
+    text-align: center;
+    margin: 20px auto;
+    position: sticky;
+    z-index: 1;
+}
+
+.fresh-1 {
+    position: relative;
+    z-index: 0;
+    top:  -320px;
+}
+
+.order {
+    text-align: center;
+    margin-top: -403px;
+}
+
+.enter {
+    margin-left: 20px;
+}
+
+.order-btn {
+    font-weight: 500;
+}
+
+.wrapper-30k {
+    display: flex;
+    
+}
+
+.veg {
+}
+
+.order-user {
+    width: 220px;
+    height: 90px;
+    text-align: center;
+
+    padding: 30px 0 0 60px;
+    
+    background: url(../img/user.png) no-repeat;
+    background-color: #fff;
+    background-position: 25px 50%;
+}
+
+.usr {
+    color: #000;
+}
+
+.order-user-30k {
+    font-size: 48px;
+    color: #000;
+}
+
+.reviews {
+    margin-top: 30px;
+    background: url(../img/star.png) no-repeat;
+    background-color: #fff;
+    background-position: 25px 50%;
+}
+
+.items {
+    margin-top: 30px;
+    background: url(../img/fruits.png) no-repeat;
+    background-color: #fff;
+    background-position: 25px 50%;
+}
+
+/* Первая часть - main */
+
+
+.wrapper-best {
+    position: sticky;
+    z-index: 2;
+    margin-left: 100px;
+}   
+
+.h2-best {
+    text-align: left;
+}
+
+.h2-best-text {
+    width: 637px;
+    margin-top: 20px;
+}
+
+.vector {
+    position: relative;
+    z-index: 1;
+
+    float: right;
+    top: -740px;
+}
+
+.wrapper-fastman {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.wrapper-fasted {
+    position: sticky;
+    display: flex;
+    width: 380px;
+    margin: 17px 0 0 50px;
+    z-index: 5;
+    flex-direction: column;
+} 
+
+.man {
+    
+    position: sticky;
+    z-index: 5;
+}
+
+.fasted {
+    width: 470px;
+    text-align: left;
+    color: #555;
+    background: url(../img/delivery-man.png) no-repeat;
+    background-position: 30px 85%;
+}
+
+.fasted-h-text {
+    padding: 0 100px 0px 100px;
+}
+
+.fasted-h {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.fasted-text {
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.online {
+    background: url(../img/list.png) no-repeat;
+    background-color: #F3FBF8;
+    background-position: 30px 50%;
+    padding-bottom: 40px;
+    margin-top: 20px;
+}
+
+.service24 {
+    background: url(../img/fast-time.png) no-repeat;
+    background-position: 30px 85%;
+    
+}
+
+.arrow {
+    position: relative;
+    left: 380px;
+    top: -60px;
+}
+
+/* Вторая секция main */
+
+.wrapper-special {
+    display: flex;
+    justify-content: space-evenly center; 
+    padding-top: 85px;
+}
+
+.img-food {
+    width: 600px;
+    height: 600px;
+}
+
+.wrapper-explor {
+    display: flex;
+    flex-direction: column;
+    margin-top: -70px;
+    margin-left: 50px;
+}
+
+.h2-explor {
+    text-align: start;
+    width: 556px;
+    margin-bottom: 20px;
+    line-height: 90px;
+}
+
+.btn-exp {
+    margin-top: 65px;
+}
+
+.exp-now {  
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 18px;
+    color: #222;
+}
+
+.img-exp-now {
+    margin-left: 20px;
+    position: sticky;
+    z-index: 2;
+}
+
+.fresh2 {
+    position: relative;
+    left: 140px;
+    top: -100px;
+    z-index: 1;
+}
+
+/* Секция Ахмеда */
+
+.wrapper-main-what {
+    display: flex;
+}
+
+.wrapper-what {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.title-what {
+    width: 640px;
+    text-align: start;
+}
+
+.title-text-what {
+    width: 586px;
+    margin: 30px 0 20px 0;
+}
+
+.ahmed {
+    font-size: 30px;
+    color: #222;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.more-stars {
+    width: 153px;
+    height: 24px;
+}
+
+.left-right {
+    display: flex;
+
+}
+
+.left {
+    width: 55px;
+    height: 55px;
+    margin: -20px 0 0 175px;
+}
+
+.right {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin: -20px 0 0 25px;
+}
+
+.man2 {
+    width: 500px;
+    height: 500px;
+    margin-top: 125px;
+}
+
+/* Последняя секция main (phone) */
+
+.wrapper-main-simple {
+    display: flex;
+}
+
+.phone {
+    position: relative;
+    z-index: 2;
+}
+
+.phone2 {
+    width: 210px;
+    height: 420px;
+    position: relative;
+    z-index: 1;
+    left: 180px;
+    top: 30px;
+}
+
+.wrapper-simple {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.btn-simple {
+    color: #333;
+    background-color: #F3FBF8;
+    padding: 11px 24px;
+    border-radius: 150px;
+    
+}
+
+.title-simple {
+    width: 665px;
+    text-align: start;
+    padding-top: 40px;
+    line-height: 90px;
+    margin-bottom: 20px;
+}
+
+.text-simple {
+    width: 574px;
+    margin-bottom: 50px;
+}
+
+.googleplay {
+    margin-left: 25px;
+}
+
+/* footer */
+
+.bg-footer {
+    background-color: #FCFEFD;
+    margin-top: 150px;
+}
+
+.wrapper-footer {
+    display: flex;
+    padding-top: 65px;
+    justify-content: space-around;
+}
+
+.wrapper-logo {
+
+}
+
+.text-footer {
+    margin: 30px 0 120px 0;
+    width: 345px;
+}
+
+.wrapper-nav-foot {
+    padding-top: 40px;
+    
+}
+
+.title-nav {
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 24px;
+    color: #222;
+    margin-bottom: 40px;
+}
+
+.footer-ul {
+    color: #555
+}
+
+.footer-ul li {
+    margin-bottom: 24px;
+}
+
+.res {
+    
+}
+
+.icon-foot {
+    margin-top: 25px;
+}
+
+.tw-inst {
+    margin-left: 50px;
+}
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+   .container {
+	   width: 960px;	
+   }
+
+   .nav-a {
+        padding-left: 0;
+   }
+
+   .wrapper-nav {
+        margin: 35px 0;
+        justify-content: space-around;
+   }
+
+   .logo-nav, .shop-nav, .search-nav {
+        margin-left: 0;
+        position: relative;
+        top: 15px;
+   }
+
+   .wrapper-order, .fresh2 {
+        display: none;
+   }
+
+   .wrapper-header {
+        flex-direction: column-reverse;
+   }
+
+   .order {
+        margin-top: -350px;
+        padding-bottom: 60px;
+   }
+
+   
+
+   .man {
+        width: 512px;
+        height: 546px;
+        margin: 30px auto;
+   }
+
+   .wrapper-fastman {
+        flex-direction: column-reverse;
+   }
+
+   .fasted {
+        width: 700px;
+   }
+
+   .arrow {
+        left: 50%;
+        top: -450px;
+   }
+
+   .wrapper-special {
+        flex-direction: column-reverse;
+        margin-top: -350px;
+   }
+
+   .h2-explor, .text-explor {
+        width: 920px;
+   }
+
+   .btn-exp {
+        display: flex;
+        margin: 65px 40vw;
+        justify-content: center;
+   }
+
+   .exp-now {
+        min-width: 100px;
+        text-align: justify;
+        margin-top: 20px
+   }
+
+   .img-food {
+        display: none;
+   }
+   
+   .wrapper-main-what {
+        flex-direction: column;
+   }
+
+   .man2 {
+        margin: 50px auto;
+   }
+
+   .title-simple {
+        width: 570px;
+   }
+
+   .text-simple {
+        width: 550px;
+   }
+
+   .phone {
+        width: 241px;
+        height: 497px;
+        top: 70px
+   }
+
+   .phone2 {
+        top: 100px;
+   }
+
+
+}
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+    .container {
+	   width: 720px;
+    }
+
+    .nav-a {
+        margin-right: 10px
+    }
+
+    .veg {
+        max-width: 700px;
+    }
+
+    .fresh-1 {
+        right: 10%;
+    }
+
+    .fasted {
+        width: 600px;
+    }
+
+    .h2-explor, .h2-best {
+        width: 500px;
+        text-align: center;
+    }
+
+    .wrapper-best {
+        margin-left: 0;
+    }
+
+    .h2-best, .h2-best-text {
+        margin: 20px auto;
+    }
+
+    .text-explor {
+        max-width: 637px;
+    }
+
+    .phone, .phone2 {
+        display: none;
+    }
+
+    .wrapper-footer {
+        flex-wrap: wrap;
+        
+    }
+
+    .text-footer {
+        width: 720px;
+        margin-bottom: 0;
+    }
+
+    .bg-footer {
+        margin-top: 0;  
+    }
+}
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+    .container {
+	   width: 540px;
+    }
+
+    .wrapper-nav {
+        margin: 0;
+    }
+
+    .header__burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        float: right;
+    }
+
+    .header__burger:before,
+    .header__burger:after {
+        content: '';
+        background: black;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+
+    .header__burger:before{
+        top: 30px;
+    }
+
+    .header__burger:after{
+       top: 55px;
+    }
+
+    .header__burger span{
+        transition: all 0.3s ease 0s;
+        position: absolute;
+        background-color: black;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 42px;
+    }
+
+    .wrapper-menu {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        z-index: 7;
+        padding: 0 0 0 0;
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+        transition: all 0.3s ease 0s;
+    }
+
+    .wrapper-menu.active {
+        top: 0;       
+    }
+
+    .nav-a {
+        display: none;
+    }
+
+    .nav-a.active {
+        display: block;
+        font-size: 24px;
+        margin: 20px auto;
+    }
+
+    .logo-nav, .header__burger {
+        z-index: 10;
+    }
+
+    .header__burger.active:before {
+        transform: rotate(45deg);
+        top: 42px;
+    }
+
+    .header__burger.active:after {
+        transform: rotate(-45deg);
+        top: 42px;
+    }
+
+    .header__burger.active span {
+        transform: scale(0);
+    }
+
+    body.lock {
+        overflow: hidden;
+    }
+
+    .shop-nav,.search-nav,.regestar-nav {
+        display: flex;
+        z-index: 10;
+    }
+
+    .regestar-nav {
+        padding-left: 50px
+    }
+
+    .shop-nav.disable,.search-nav.disable,.regestar-nav.disable {
+        z-index: 1;
+    }
+
+    .about {
+        padding-top: 100px;
+    }
+/* Сверху навигация с бургером, снизу уже контент */
+
+    .veg, .lorem-h1, .h2-best-text {
+        max-width: 530px;
+    }
+
+    .fasted-text {
+        font-size: 16px;
+    }
+
+    .fasted {
+        max-width: 500px;
+    }
+
+    .title-what,.text-explor, .title-simple, .title-text-what{
+        text-align: center;
+        width: 500px;
+    }
+
+    .text-footer {
+        width: 500px;
+    }
+
+    .wrapper-what, .wrapper-explor {
+        margin-left: 0;
+    }
+
+    .tw-inst {
+        margin-left: 25px;
+    }
+}
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+    .container {
+	   width: 90%;
+    }
+
+    .regestar-nav {
+        padding-left: 0;
+    }
+
+    .veg, .fresh-1, .h2-best, .man {
+        width: 100%;
+        height: 100%;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+    .lorem-h1, .h2-best-text {
+        width: 90%;
+        text-align: left;
+    }
+
+    .order {
+        margin-top: -200px;
+        padding-bottom: 30px;
+    }
+
+    .fasted {
+        width: 100%;
+        background: none;
+    }
+
+    .online {
+        margin: 0;
+    }
+
+    .fasted-h-text, .order-user {
+        padding: 0;
+    }
+
+    .fasted-text {
+        display: block;
+        width: 60%;
+        text-align: left;
+    }
+
+    .fasted-h {
+        display: block;
+        margin-top: 100px;
+    }
+}
